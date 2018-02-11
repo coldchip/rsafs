@@ -320,8 +320,6 @@ $test = new Compile();
 
 $test->compress($_SERVER["DOCUMENT_ROOT"] . "/login", $_SERVER["DOCUMENT_ROOT"] . "/compile/compressedData.cdat");
 
-//$test->listData($_SERVER["DOCUMENT_ROOT"] . "/compile/compressedData.cdat", "data");
-
 $test->decompress($_SERVER["DOCUMENT_ROOT"] . "/compile/compressedData.cdat", $_SERVER["DOCUMENT_ROOT"] . "/testfol");
 
 ?>
