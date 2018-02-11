@@ -1,7 +1,8 @@
 <h1>PHP RSA Based Compressed Archiver</h1>
 <h2>Usage: </h2> 
-<h3>compress($FOLDER_TO_ENCRYPT, $OUTPUT_PATH);</h3>
-<h3>compress($FILE_TO_DECRYPT, $OUTPUT_FOLDER);</h3>
+
+    compress($FOLDER_TO_ENCRYPT, $OUTPUT_PATH);
+    compress($FILE_TO_DECRYPT, $OUTPUT_FOLDER);
 
 This script is distributed under the terms of the GNU General Public License (GPL)
 See http://www.gnu.org/licenses/gpl.txt for license details
